@@ -1,4 +1,5 @@
 import React from "react";
+import { GrPersonalComputer, GrAlarm, GrTag  } from "react-icons/gr";
 
 function Function() {
   return (
@@ -14,8 +15,11 @@ function Function() {
       </section>
 
       <section>
-        <div>
-          <img src="./img/monitor.png h-90 w-4" alt="" />
+        <div className="flex">
+          < GrPersonalComputer size="3px" />
+          < GrAlarm />
+          < GrTag />
+
         </div>
       </section>
     </div>

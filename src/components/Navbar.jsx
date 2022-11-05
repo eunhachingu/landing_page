@@ -3,7 +3,9 @@ import React from "react";
 function Navbar() {
   return (
     <nav className=" text-white flex justify-between bg-gray-700 items-center">
-      <h1 className="cursor-pointer text-xl ml-10 hover:text-gray-500 py-2 font-extrabold">Nexus</h1>
+      <h1 className="cursor-pointer text-xl ml-10 hover:text-gray-500 py-2 font-extrabold">
+        Choi
+      </h1>
       <ul className="flex space-x-6 text-sm uppercase font-medium">
         <li>
           <a href="#">Home</a>

@@ -11,10 +11,14 @@ function Hero() {
           explicabo quam, cupiditate in rem non nemo beatae iusto. Aliquam,
           ipsa?
         </p>
-        
+
         <div className="flex space-x-10 text-md">
-            <button className="px-4 py-2 rounded-sm border-2 ease-in-out duration-300 hover:bg-slate-100 hover:text-black ">Get Started</button>
-            <button className="px-4 py-2 rounded-sm border-2 bg-white  ease-in-out duration-300 text-black hover:bg-slate-500 hover:text-white">Download</button>
+          <button className="px-4 py-2 rounded-sm border-2 ease-in-out duration-300 hover:bg-slate-100 hover:text-black ">
+            Get Started
+          </button>
+          <button className="px-4 py-2 rounded-sm border-2 bg-white  ease-in-out duration-300 text-black hover:bg-slate-500 hover:text-white">
+            Download
+          </button>
         </div>
       </section>
 
